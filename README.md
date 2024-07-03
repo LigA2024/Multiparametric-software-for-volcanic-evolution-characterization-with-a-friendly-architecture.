@@ -1,0 +1,2 @@
+# Multiparametric-software-for-volcanic-evolution-characterization-with-a-friendly-architecture.
+Multiparametric software for volcanic evolution characterization with a friendly architecture. We develop a set of technological tools developed in the Python. These set tools represent Secure, scalable software applications that can be deployed in real-time to handle large volumes of seismic data, enabling the creation of early warning models.
