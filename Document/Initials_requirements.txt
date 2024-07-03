@@ -1,0 +1,53 @@
+*** PLEASE INSTALL PYTHON LIBRARIES, FOR THE CORRECT FUNCTIONING OF THE SYSTEM ***
+
+---On Windows, Open a "Cmd" command window. On Linux use the superuser "sudo" and type the following---
+
+1) To see the version of Python or PIP, the command (-V) is typed in a console or CMD as follows:
+
+python  - V  /    pip – V      Y para ver la lista de paquetes pip instalados: ->          pip list
+
+2) Update the version of pip, with which Python is installed
+
+    Python –m pip install  - - upgrade pip   / (LINUX) -> sudo python –m pip install  - - upgrade pip
+
+*** Install the necessary packages for Python to work properly with your applications. ***
+
+a) PyQt Installation: This is a Python binding for the Qt library written in the C++ language. For creating and using graphical user interfaces (GUIs) in Python. The following is typed in the command window (CMD).
+
+	pip install PyQt5      / (LINUX & Mac) -> sudo python install PyQt5
+
+b) Installation of the Matplotlib library. It is the library that allows the creation and visualization of graphs. The following is typed:
+
+	pip install matplotlib   / (LINUX & Mac) -> sudo python install matplotlib   
+
+c) Install the Obspy library. It is the library for handling seismic signals. You type:
+
+	pip install obspy        / (LINUX & Mac) -> sudo python install obspy
+
+d) Install Thinter: It is a graphical user interface (GUI). The following is typed:
+
+	pip install tk        / (LINUX & Mac) -> sudo python install tk
+
+e) Install "quantecon": It is a library that is used to use the estimation of the spectrum, Periodogram, Fourier transform. The following is typed:
+
+    pip install  - - upgrade quantecon   / (LINUX & Mac) -> sudo python install - - upgrade quantecon
+
+f) Update a library for matplotlib. To avoid problems with graphics.
+
+	pip install msvc-runtime     / (LINUX & Mac) -> sudo python install msvc-runtime
+
+g) Install "easygui" for the graphical interface.
+
+	pip install easygui      / (LINUX & Mac) -> sudo python install easygui
+
+h) Install "PyWavelets" for handling the CWT Transform.
+
+	pip install PyWavelets    / (LINUX & Mac) -> sudo python install PyWavelets
+
+i) Install "plotly", for the handling and help of plots together with Matplolib.
+
+	pip install plotly    / (LINUX & Mac) -> sudo python install plotly
+
+Finally, type “pip list”, to see the installed libraries. Additional: A general file called “requirements.txt” can be created, which will contain all the libraries that the PC will use. The "requeriments.txt" file must be in the current directory. It is created by the following command.
+
+                pip freeze > requirements.txt 
