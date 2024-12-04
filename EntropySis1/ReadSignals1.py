@@ -2225,9 +2225,9 @@ class Ui_MainWindow(object):
                     #plt.ylabel('Filtered data Bandpass', color ="blue", fontsize=14)
                     plt.xlabel('Time [s]', color ="red", fontsize=20)
                     #plt.title(u'Filtered Record - Bandpass', color ="darkgreen", fontsize=19)  # Ponemos un título
-                    #plt.suptitle("Record : " + root + ' - Filtered Record - Bandpass', color ="darkgreen", fontsize=19)
+                    plt.suptitle("Record : " + root + ' - Filtered Record - Bandpass', color ="darkgreen", fontsize=19)
 
-                    plt.title(u'Colima EZV4 - 2014', color ="darkgreen", fontsize=19)  # Ponemos un título
+                    #plt.title(u'Colima EZV4 - 2014', color ="darkgreen", fontsize=19)  # Ponemos un título
                     #plt.grid()                                                   # presenta la cuadricula en el grafico
                     plt.show()
 
@@ -2430,8 +2430,8 @@ class Ui_MainWindow(object):
                     # lineas-> : = estilo de línea punteada, -- = estilo de línea discontinua
                     #plt.ylabel('Filtered data Bandpass 1 -15 Hz', color ="blue", fontsize=14)
                     #plt.xlabel('Time [s]', color ="red", fontsize=20)
-                    plt.title(u'Colima EZV4 - 2014', color ="darkgreen", fontsize=19)  # Ponemos un título
-                    #plt.suptitle("Record : " + root + ' - Filtered Record - Bandpass',  color ="darkgreen", fontsize=19)
+                    #plt.title(u'Colima EZV4 - 2014', color ="darkgreen", fontsize=19)  # Ponemos un título
+                    plt.suptitle("Record : " + root + ' - Filtered Record - Bandpass',  color ="darkgreen", fontsize=19)
                     #plt.grid()                                                   # presenta la cuadricula en el grafico
 
                     # Graphics: original and filtered for File 2
